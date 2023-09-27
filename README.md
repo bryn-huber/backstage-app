@@ -29,3 +29,5 @@ To start the app, run:
 yarn install
 yarn dev
 ```
+
+One `yarn dev` is complete a URL will be avaliable to run the backstage application. 
