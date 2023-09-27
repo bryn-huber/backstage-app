@@ -18,3 +18,14 @@ npx @backstage/create-app@latest
 ```
 
 Set the name to `backstage-app` and a folder `backstage-app` will apperar with all the code inside 
+
+## [Backstage](https://backstage.io)
+
+This is your newly scaffolded Backstage App, Good Luck!
+
+To start the app, run:
+
+```sh
+yarn install
+yarn dev
+```
