@@ -83,3 +83,11 @@ FROM node:18-bullseye-slim
 ```
 
 Take the latest Dockerfile from [Backstage: Building a Docker image](https://backstage.io/docs/deployment/docker/) in the Host Build seciton. 
+
+## Github Action publishing Docker image to Docker Hub
+
+For the only image currnetly pushed to Docker Hub, run:
+```sh
+docker pull lloydb2/backstage-app:pr-4
+```
+
