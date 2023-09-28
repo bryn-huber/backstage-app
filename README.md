@@ -91,3 +91,11 @@ For the only image currnetly pushed to Docker Hub, run:
 docker pull lloydb2/backstage-app:pr-4
 ```
 
+To run the container loaclly 
+```sh
+docker run -it -p 7007:7007 lloydb2/backstage-app:pr-4
+```
+Note, you may need to use `--privileged` mode, however this is not secure and only to test the base image works. 
+```sh
+docker run -it --privileged -p 7007:7007 lloydb2/backstage-app:pr-4
+```
