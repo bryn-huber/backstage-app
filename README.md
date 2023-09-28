@@ -83,3 +83,19 @@ FROM node:18-bullseye-slim
 ```
 
 Take the latest Dockerfile from [Backstage: Building a Docker image](https://backstage.io/docs/deployment/docker/) in the Host Build seciton. 
+
+## Github Action publishing Docker image to Docker Hub
+
+For the only image currnetly pushed to Docker Hub, run:
+```sh
+docker pull lloydb2/backstage-app:pr-4
+```
+
+To run the container loaclly 
+```sh
+docker run -it -p 7007:7007 lloydb2/backstage-app:pr-4
+```
+Note, you may need to use `--privileged` mode, however this is not secure and only to test the base image works. 
+```sh
+docker run -it --privileged -p 7007:7007 lloydb2/backstage-app:pr-4
+```
